@@ -5,13 +5,17 @@ using namespace std;
 
 class Process{
 public:
-	Process(string row[], int cols);
+	Process(string row[], int cols, string name);
 	~Process();
 
 	void print();
+	void printSolution();
 
 private:
 	int noEvents;
-	string *events;//Pointer
+	string pName;
+	//Pointers to arrays
+	string *events;
+	int *output;
 };
 
