@@ -89,6 +89,11 @@ void Process::calculateLamport() {
 			else {
 				output[i] = output[i - 1] + 1;
 			}
+
+			//TODO: save output[i] into a shared variable:
+			//Obtain lock
+			//modify val
+			//release lock
 		}
 
 		//CASE 3: Receive events
@@ -113,7 +118,11 @@ void Process::calculateLamport() {
 			cout << "The prev LC value, K, is: " << k << endl;
 
 			//Now that we have K, obtain sendVal:
-			int sendVal;//TODO: get this from a shared variable
+			int sendVal;
+			//TODO: get this from a shared variable
+			//Obtain lock
+			//read val
+			//release lock
 			sendVal = 10;
 
 			cout << "Obtained sendVal value is: " << sendVal << endl;
