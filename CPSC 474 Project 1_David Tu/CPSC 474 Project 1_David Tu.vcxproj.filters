@@ -26,10 +26,10 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPSC 474 Project 1_David Tu.cpp">
+    <ClCompile Include="Printer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Printer.cpp">
+    <ClCompile Include="Project 1 - Algorithm Calculation_David Tu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
